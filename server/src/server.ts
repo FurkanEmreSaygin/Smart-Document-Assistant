@@ -22,7 +22,7 @@ app.get('/', (req: Request, res: Response) => {
     env: process.env.NODE_ENV || 'development',
   });
 });
-
+const test: any = "hata";
 // Sunucuyu Başlat
 const startServer = async() =>{
   try {
